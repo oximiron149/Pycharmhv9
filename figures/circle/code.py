@@ -1,10 +1,9 @@
 from math import pi
 
-def_radius = 5
+def_rad = 5
 
-def circle_perimetr(radius=def_radius):
-    return 2 * pi *radius
+def circle_perimeter(radius=def_rad):
+    return 2 * pi * radius
 
-
-def circle_square(radius=def_radius):
+def circle_area(radius=def_rad):
     return pi * radius ** 2
